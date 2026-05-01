@@ -1,0 +1,26 @@
+name: Tags
+version: 1.0.0
+main: dev.gugli.tags.Tags
+api-version: '1.21'
+description: Tags plugin
+authors: [gugli]
+
+commands:
+  tag:
+    description: Open the tags menu or manage tags
+    aliases: [tags]
+    usage: /tag | /tag give <player> <tagId> [quantity] | /tag reload
+
+permissions:
+  tag.use:
+    default: true
+  tag.admin:
+    default: op
+  tag.default:
+    default: true
+  tag.vip:
+    default: false
+  tag.mvp:
+    default: false
+  tag.admin.tag:
+    default: op

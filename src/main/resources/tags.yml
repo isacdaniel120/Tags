@@ -1,0 +1,38 @@
+tags:
+  default:
+    - id: "member"
+      display: "&7[Member]"
+      permission: "tag.default"
+    - id: "player"
+      display: "&a[Player]"
+      permission: "tag.default"
+
+  vip:
+    - id: "vip"
+      display: "&6[VIP]"
+      permission: "tag.vip"
+    - id: "rich"
+      display: "&e[Rich]"
+      permission: "tag.vip"
+    - id: "pro"
+      display: "&b[Pro]"
+      permission: "tag.vip"
+
+  mvp:
+    - id: "mvp"
+      display: "&c[MVP]"
+      permission: "tag.mvp"
+    - id: "legend"
+      display: "&d[Legend]"
+      permission: "tag.mvp"
+    - id: "goat"
+      display: "&5[GOAT]"
+      permission: "tag.mvp"
+
+  admin:
+    - id: "admin"
+      display: "&4[Admin]"
+      permission: "tag.admin.tag"
+    - id: "owner"
+      display: "&c[Owner]"
+      permission: "tag.admin.tag"

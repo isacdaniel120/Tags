@@ -1,0 +1,11 @@
+tags:
+  enabled: true
+  chat-format: "{tag} &f{player}&7: &f{message}"
+  default-tag: ""
+
+messages:
+  prefix: "&8[&bTags&8] &r"
+  no-permission: "&cNo permission!"
+  no-tag: "&7You have no tag selected."
+  tag-selected: "&aTag &r{tag} &aselected!"
+  reload: "&aConfig reloaded!"
